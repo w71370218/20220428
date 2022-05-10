@@ -1,0 +1,13 @@
+app-post-list {
+  width: 100%;
+}
+
+.bd-main {
+  grid-template-areas: "intro   toc" "content toc";
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: auto 1fr;
+}
+
+.bd-sidebar {
+  grid-area: sidebar;
+}

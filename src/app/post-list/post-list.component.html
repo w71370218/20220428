@@ -1,7 +1,12 @@
-<div id="content" class="p-4 p-md-5 pt-5">
+<div id="content" class="p-1 p-md-5 pt-5">
   <!--<img [src]="imagePath">-->
-  <div *ngFor="let post of post_list">
-    <h2>{{ post.title }}</h2>
-    <div [innerHTML]="post.htmlstr"></div>
+  <div *ngFor="let post of post_list" class="blog-post">
+    <div class="shadow"></div>
+    <div class="copy">
+      <h2 class="blog-post-title">{{ post.title }}</h2>
+      <hr>
+      <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
+      <div [innerHTML]="post.htmlstr" class="blog-post-content"></div>
+    </div>
   </div>
 </div>

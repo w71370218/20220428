@@ -1,0 +1,21 @@
+.text-center {
+  text-align: center!important;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+
+main {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+form {
+  width: 100%;
+}

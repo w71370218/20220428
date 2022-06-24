@@ -3,7 +3,7 @@ export interface Post {
     title: string,
     markdownstr: string,
     htmlstsr?:string,
-    //author: string,
+    author: string,
     //published_time: string,
     //updated_time:string,
 }

@@ -5,8 +5,10 @@
     <div class="copy">
       <h2 class="blog-post-title">{{ post.title }}</h2>
       <hr>
-      <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
-      <div [innerHTML]="post.htmlstr" class="blog-post-content"></div>
+      <p class="blog-post-meta">January 1, 2014 by <a href="#">{{ post.author }}</a></p>
+      <div class="blog-post-content">
+        <div [innerHTML]="post.htmlstr" ></div>
+      </div>
     </div>
   </div>
 </div>
